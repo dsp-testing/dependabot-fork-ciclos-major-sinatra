@@ -6,11 +6,11 @@ group :test, :development do
   gem "rack-test", "~> 2.1"
   gem "rake", "~> 13.1"
   gem "rerun", "~> 0.14"
-  gem "rubocop-rickselby", "~> 0.16", require: false
+  gem "rubocop-rickselby", "~> 0.62", require: false
 end
 
 group :test do
-  gem "rspec", "~> 3.12"
+  gem "rspec", "~> 3.13"
 end
 
 group :development do
@@ -21,8 +21,8 @@ gem "erubi", "~> 1.12"
 gem "omniauth", "~> 2.1"
 gem "omniauth-microsoft_graph", "~> 2.0"
 gem "puma", "~> 6.4"
-gem "rack", "~> 2.2"
+gem "rack", "~> 3.2"
 gem "securerandom", "~> 0.3"
 gem "sequel", "~> 5.76"
-gem "sinatra", "~> 3.2"
+gem "sinatra", "~> 4.2"
 gem "sqlite3", "~> 1.7"
